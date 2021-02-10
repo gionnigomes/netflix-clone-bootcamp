@@ -1,0 +1,44 @@
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background: var(--preta) !important;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header .container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .botao-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        
+    }
+    
+    .botao-senha {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+    }
+
+    .login {
+
+    }
+    
